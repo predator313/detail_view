@@ -5,3 +5,5 @@ from django.views.generic.detail import DetailView
 #detail view gives single instance object this is most important features
 class StudentDetailview(DetailView):
     model=Student
+    template_name='app/home.html'
+    #here we provide the custome template name this is the very important concept to 
